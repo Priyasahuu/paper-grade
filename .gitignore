@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (optional)
+saved_models/*.pkl
+
+# Generated results (optional)
+results/*.csv
+
+# Analytics outputs
+analytics/results/*.csv
+analytics/results/*.png
+
+# Data outputs
+data/synthetic/*.csv
+data/processed/*.csv
