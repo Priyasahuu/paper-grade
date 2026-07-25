@@ -39,6 +39,3 @@ results/*.csv
 analytics/results/*.csv
 analytics/results/*.png
 
-# Data outputs
-data/synthetic/*.csv
-data/processed/*.csv
