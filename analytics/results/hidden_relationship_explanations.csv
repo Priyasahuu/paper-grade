@@ -1,0 +1,16 @@
+Hidden_Feature,Importance,Reason
+Distance_To_Upper,6.786,Distance_To_Upper shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+BW_Error_Percent,6.7826,BW_Error_Percent shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+BW_Error,6.7774,BW_Error shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Distance_To_Lower,6.7754,Distance_To_Lower shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Basis_Weight_Lag1,3.018,Basis_Weight_Lag1 shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Basis_Weight_RollingMean,2.8077,Basis_Weight_RollingMean shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Basis_Weight_Lag2,2.6224,Basis_Weight_Lag2 shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Speed_per_Stock,2.5202,Speed_per_Stock shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Machine_Speed_RollingMean,2.3138,Machine_Speed_RollingMean shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Caliper_Lag1,2.2663,Caliper_Lag1 shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Moisture_per_BW,2.2346,Moisture_per_BW shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Stock_Flow_Lag1,2.2187,Stock_Flow_Lag1 shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Stock_x_Filler,2.2153,Stock_x_Filler shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Headbox_Pressure,2.205,Headbox_Pressure shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.
+Stock_Flow_Lag2,2.1853,Stock_Flow_Lag2 shows a strong non-linear relationship with Basis Weight and should be considered during grade transition optimization.

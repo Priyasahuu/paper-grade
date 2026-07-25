@@ -29,13 +29,4 @@ env/
 .DS_Store
 Thumbs.db
 
-# Model files (optional)
-saved_models/*.pkl
-
-# Generated results (optional)
-results/*.csv
-
-# Analytics outputs
-analytics/results/*.csv
-analytics/results/*.png
 
