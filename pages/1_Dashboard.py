@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 st.set_page_config(
-    page_title="Honeywell Grade Intelligence",
+    page_title="Paper Grade Change Intelligence",
     layout="wide",
     initial_sidebar_state="expanded"
 )
