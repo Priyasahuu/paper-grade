@@ -194,7 +194,7 @@ risk_percent = min(deviation * 1.2, 100)
 
 health = max(20, round(100 - risk_percent))
 
-k4.metric(
+k3.metric(
 
 "Health Score",
 
@@ -202,7 +202,7 @@ f"{health:.0f}%"
 
 )
 
-k5.metric(
+k4.metric(
 
 "Steam",
 
@@ -210,7 +210,7 @@ f'{latest["Steam_Pressure"]:.1f}'
 
 )
 
-k6.metric(
+k5.metric(
 
 "Machine",
 
