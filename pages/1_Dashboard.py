@@ -188,37 +188,11 @@ f'{latest["Basis_Weight"]:.1f}'
 
 )
 
-risk_percent=min(
+deviation = abs(latest["Basis_Weight"] - latest["Target_BW"]) / latest["Target_BW"] * 100
 
-100,
+risk_percent = min(deviation * 1.2, 100)
 
-abs(
-
-latest["Basis_Weight"]-
-
-latest["Target_BW"]
-
-)
-
-/latest["Target_BW"]*100*10
-
-)
-
-k3.metric(
-
-"Off-Spec Risk",
-
-f"{risk_percent:.0f}%"
-
-)
-
-health=max(
-
-0,
-
-100-risk_percent
-
-)
+health = max(20, round(100 - risk_percent))
 
 k4.metric(
 
