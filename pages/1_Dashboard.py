@@ -115,7 +115,7 @@ st.markdown("""
 
 <h1>
 
-🏭 Honeywell Grade Change Intelligence
+🏭 Paper Grade Change Intelligence
 
 </h1>
 
